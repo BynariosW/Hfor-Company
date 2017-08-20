@@ -2,28 +2,61 @@
 <html lang="es-ES">
 <head>
 	<meta charset="UTF-8">
-	<title>Título de la página web</title>
+	<meta name="author" content="Agustin Piriz">
+	<title>HFOR</title>
+	<link rel="stylesheet" href="assets/css/fonts.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body id="body">
+	<div class="arriba icon-ctrl"></div>
 	<div id="preloader-container">
 		<div class="preloader"></div>
 	</div>
 
 	<div class="header">
 
+		<div class="sesion">
+			<a href="/hfor/sign-in.html">Login</a>
+			<a href="/hfor/sign-up.html">Registrar</a>
+		</div>
+
 		<div class="logo">
-			<img src="assets/img/logo.png" alt="Node JS">
+			<!-- <img src="assets/img/logo.png" alt="Node JS"> -->
+			<a href="#">HFOR</a>
 		</div>
 
 		<div class="menu">
-			<li><a href="#">Link 1</a></li>
-			<li><a href="#">Link 2</a></li>
-			<li><a href="#">Link 3</a></li>
-			<li><a href="#">Link 4</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Marcas</a></li>
+			<li><a href="#">Tienda</a></li>
+			<li><a href="#">Acerca de</a></li>
 		</div>
 
+	</div>
+
+	<div class="fondo-negro"></div>
+
+	<div class="navegacion-responsive">
+	<div class="mostrar-menu icon-menu"></div>
+	<div class="ocultar-menu icon-cross"></div>
+	</div>
+	<ul class="menu-2">
+		<li><a href="#">Link 1</a></li>
+		<li><a href="#">Link 2</a></li>
+		<li><a href="#">Link 3</a></li>
+		<li><a href="#">Link 4</a></li>
+	</ul>
+
+	<div class="buscador">
+		<input id="busqueda" type="text" placeholder="Buscar">
+		<!-- <h6>Buscar</h6> -->
+		<label for="busqueda"><span class="icon-search"></span></label>
+	</div>
+
+	<div class="registrar-pime">
+		<span class="icon-earth"></span>
+		<h2>Registra tu pime</h2>
 	</div>
 	
 	<div class="total-container">
@@ -31,9 +64,6 @@
 			<article>
 				<h2>Título del  contenido principal</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia deserunt excepturi commodi aliquid beatae, dolorem impedit, quos sint enim esse inventore eius asperiores delectus, labore facilis quidem non. Dolore, veritatis.</p>
-
-				<img src="http://www.lorempixel.com/600/400" alt="">
-
 			</article>
 		</div>
 
@@ -41,9 +71,6 @@
 			<article>
 				<h2>Título del contenido secundario</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea, quaerat esse iure, voluptatem, omnis, nisi quas dolores ratione in maiores rerum incidunt enim accusamus itaque explicabo a quis cupiditate.</p>
-
-				<img src="http://www.lorempixel.com/300/200" alt="">
-
 			</article>
 		</div>
 
@@ -51,15 +78,48 @@
 			<aside>
 				<h2>Título del Aside</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nihil repudiandae voluptatem dolor, debitis necessitatibus expedita tenetur ab excepturi quas atque accusantium, voluptatibus rem? Laborum dicta velit libero, molestiae alias.</p>
-
-				<img src="http://www.lorempixel.com/400/300" alt="">
-
 			</aside>
 		</div>
 	</div>
 
 	<div class="footer">
 		<p>&copy; Todos los derechos reservados NameOfWebsite 2017.</p>
+	</div>
+
+	<div class="footer-2">
+		<a href="#" class="icon-facebook"></a>
+		<a href="#" class="icon-google-plus"></a>
+		<a href="#" class="icon-instagram"></a>
+		<a href="#" class="icon-twitter"></a>
+	</div>
+
+	<div class="footer-3">
+		<a href="#">Empresas</a>
+		<a href="#">Nosotros</a>
+		<a href="#">Privacidad</a>
+		<a href="#">Soporte</a>
+		<a href="#">Contactanos</a>
+		<a href="#">FAQ</a>
+		<a href="#">Empresas</a>
+		<a href="#">Terminos y condiciones</a>
+		<a href="#">Desarrolladores</a>
+		<p>&copy;2017</p>
+	</div>
+
+	<div class="footer-responsive">
+		<div class="links-1">
+			<a href="#">Empresas</a>
+			<a href="#">Nosotros</a>
+			<a href="#">Privacidad</a>
+			<a href="#">Soporte</a>
+		</div>
+		<div class="links-2">
+			<a href="#">Contactanos</a>
+			<a href="#">FAQ</a>
+			<a href="#">Empresas</a>
+			<a href="#">Terminos y condiciones</a>
+			<a href="#">Desarrolladores</a>
+		</div>
 	</div>
 
 	<script src="assets/js/main.js"></script>
